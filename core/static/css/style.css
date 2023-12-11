@@ -1,0 +1,148 @@
+header {
+    background-color: #35424a;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo {
+    flex-grow: 1;
+    text-align: left;
+    padding-left: 2rem; /* Отступ слева для логотипа */
+}
+
+nav {
+    flex-grow: 2;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Центрирование элементов меню */
+    align-items: center;
+}
+
+nav ul li {
+    padding: 0 20px; /* Отступы между элементами списка */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px; /* Внутренние отступы ссылок */
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #f6b93b;
+}
+
+/* Остальные стили */
+
+
+#calculator-form {
+    margin-bottom: 1rem;
+}
+
+#calculator-form input[type="number"] {
+    margin-right: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+}
+
+#calculator-form button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #35424a;
+    color: white;
+    cursor: pointer;
+}
+
+#calculator-form button:hover {
+    background-color: #f6b93b;
+}
+
+
+/* sdadsadsada */
+
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #35424a;
+    color: white;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    margin-left: 2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #f6b93b;
+    color: #ffffff;
+}
+
+.section {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.section img {
+    max-width: 100%; /* Изображение будет занимать максимум своего контейнера */
+    max-height: 300px; /* Максимальная высота для всех изображений */
+    width: auto; /* Ширина изменится пропорционально */
+    margin: 1rem 0; /* Отступы сверху и снизу для изображения */
+    object-fit: cover; /* Обрезка изображения для сохранения пропорций без искажения */
+}
+
+footer {
+    background-color: #35424a;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Дополнительные стили для вашего сайта */
